@@ -75,20 +75,13 @@ You can participate with CCP devs and third party devs by [joining Tweetfleet on
 #### Fitting Tools
 * [Pyfa](https://github.com/pyfa-org/Pyfa/releases) -  allows you to create, experiment with, and save ship fittings without being in game.
 
-Outdated fitting tools used to be listed, but they are so far out of date they really aren't worth listing here anymore. Check the history of this file if you really want to discover them.
-
-#### Fleet Tools
-* [Capri's Tools](https://skyride.org/) - A suite of fleet scan tools including live fleet scans via ESI
-
 #### Intel
 * [Eve Gate Camp Check](http://eve-gatecheck.space/eve/) - Navigation specifically tuned towards kills happening at gates.
 * [EveWho](http://evewho.com) - List members of a corp or alliance from out of game.
 * [SeAT](https://github.com/eveseat/seat) - SeAT is a EVE Online Corporation Management Tool written in PHP.
 * [Eve Incursions](http://incursions.shadowlauch.de/) -  provides an overview of the current incursions, active communities and incursion rat information.
 * [EVE PRISM](http://eve-prism.com/) -  tool for gathering and analyzing information intended for PvP-oriented players that also works as a gorgeous screensaver
-* [Near2](http://www.evedustry.com/near/) - Tactical Intelligence Organizer. Realtime intel/map tool.
 * [Spyglass](http://www.crypta.tech/spyglass/) - Real time visual intelligence rendering
-* [IMP](https://github.com/3vi1/IMP) - Eve Online Intelligence Management Program
 * [PySpy](https://github.com/Eve-PySpy/PySpy#pyspy---a-simple-eve-online-character-intel-tool-using-ccps-esi-api) - A powerful and fast character intel tool. Just copy past & paste pilot names from local. Great for hunting, fleet scouting and solo / small gang PVP.
 * [PLH](http://eve-plh.com) - Pirate's Little Helper provides a whole toolbox for finding targets, avoiding ganks and much more.
 * [TheraBot](https://github.com/Ionaru/TheraBot) - A Discord bot that posts notifications of newly scouted wormhole connections to Thera.
@@ -100,14 +93,15 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 
 #### Mobile Applications
 ##### Android
+* [EVE Portal](https://www.eveonline.com/eve-portal) - The Official EVE Online mobile app
 * [Evanova](https://play.google.com/store/apps/details?id=com.tlabs.android.evanova) - Character and corporation management tool featuring a fitting tool, database browsing and more.
-* [Eve Droid](https://play.google.com/store/apps/details?id=dk.alxb.evedroid) - EVE Droid is a character monitoring and ship fitting tool for EVE Online.
 * [Eveeye Explorer](https://play.google.com/store/apps/details?id=com.eveeye) - Interactive k-space maps + chain mapping.
 * [Eve Panda](https://play.google.com/store/apps/details?id=com.fnl.light.evepanda) - Manage your Eve Online characters using the ESI interface.
 * [Eve PI](https://play.google.com/store/apps/details?id=dae.evepi) - A central console for reviewing your Planetary Interaction colonies.
 * [Mining Helper](https://play.google.com/store/apps/details?id=com.randomlettersandnumbers15645151gd65fg16d5fgs46r84tserg51f3d21ger6.eveminer) - This simple app let's you select some ores and will fetch their prices in Tradehubs.
 
 ##### iOS
+* [EVE Portal](https://www.eveonline.com/eve-portal) - The Official EVE Online mobile app
 * [Neocom II for EVE Online](https://itunes.apple.com/ca/app/neocom-ii-for-eve-online/id1257353838?mt=8) - View your EVE Online characters and skills, browse EVE Online items database, analyze market information, test ship fits on your iPhone/iPad or iPod Touch.
 * [Eveeye Explorer](https://itunes.apple.com/us/app/eveeye/id1163904317) - Interactive k-space maps + chain mapping.
 
@@ -116,7 +110,6 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 ## Corporation/Alliance/Group tools
 
 #### Management Tools
-* [EveStructures](https://structures.eveskillboard.com) - Monitor all your stations spread across New Eden across multiple Corporations. See Fuel, Services, etc and be notified via discord/slack push notifications.
 * [EVE Data](https://www.evedata.org) - A collection of tools to help capsuleers including:
     * [ECM Calculator](https://www.evedata.org/ecmjam) Jam Probability.
     * [Local Intel](https://www.evedata.org/localIntel) Paste local members to get a quick summary of their capability and hotdrop frequency.
@@ -133,6 +126,8 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 
 #### Auth Systems
 * [Alliance Auth](https://gitlab.com/allianceauth/allianceauth) - An auth system for EVE Online to help in-game organizations manage online service access.
+    * [Services](https://allianceauth.readthedocs.io/en/latest/features/services/index.html#supported-services) Discord, Mumble, Openfire/Jabber, phpBB3, SMF, Teamspeak3, XenForo, Discourse and WikiJS (AA Community App)
+    * [Community Apps](https://gitlab.com/allianceauth/community-creations) Fully featured Community built apps to extend Alliance Auth
 * [AVRSE Auth](https://github.com/skyride/avrse-auth) - An FC focussed auth system with support for discord, mumble and IPB. Handles characters/assets/skills/structure management.
 * [Neucore](https://github.com/tkhamez/neucore) - An application for managing access for EVE Online players to external services of an alliance.
 * [DokuWiki EveSSO Plugin](https://github.com/GoldenGnu/dokuwiki-plugin-evesso)  - DokuWiki authentication via eve online SSO and access control for corporations/alliances/factions
@@ -147,19 +142,20 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 * [Tripwire](https://tripwire.eve-apps.com/) - wormhole mapping tool
 * [Siggy](https://siggy.borkedlabs.com/pages/welcome) - wormhole mapping tool
 * [Pathfinder](https://www.pathfinder-w.space/) - wormhole mapping tool
+* [GalaxyFinder](https://wormholes.new-eden.io/) - wormhole mapping and info tool
 * [anoik.is](http://anoik.is/) - Wormhole info tool.  Tells you about the WH and who is probably in it.  Battles and links to zkillboard for kills.
 * [eve-wh.space](https://eve-wh.space/) - Information about wormhole systems, WH sites; WH database. Integration with ESI, zKillboard. Focused on minimalistic UI and usability.
-* [Short Circuit](https://github.com/secondfry/shortcircuit) - tool for finding shortest path between systems using Tripwire wormhole connections. 
+* [Short Circuit](https://github.com/secondfry/shortcircuit) - tool for finding shortest path between systems using Tripwire wormhole connections.
 
 #### Killboards
 
 * [zKillboard](https://zkillboard.com) - A website for killmail presentation and statistical aggregation.
-* [Eve Development Network Killboard](https://github.com/evekb/evedev-kb) - A selfhostable killboard for keeping track and making campaigns with goals.
 
 #### Killboard Utilities
 * [RedisQ](https://github.com/zKillboard/RedisQ) - A simple queue service for "pushing" killmails from zKillboard.
 * [RedisQ slack bot](https://github.com/Slivo-fr/RedisQ-Slack-Bot) - A PHP killbot publishing killmails on slack
 * [brcat](https://br.inyour.space/) - Tool for generating battle reports from killmails held on zKillboard.com
+* [ZRule](https://zrule.eveisesi.space) - Configurable Rules Engine for getting killmail notifications for killamils on ZKillboard
 
 #### Market
 
@@ -188,12 +184,14 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 * [Fuzzworks](http://www.fuzzwork.co.uk) - Fuzzworks - many very, very useful tools including but not limited to Industry, stats, calculators, and route planners. [Fuzzwork github](https://github.com/fuzzysteve/)
 * [Eve-check](http://eve-check.space) - Interactive polymer reactions scheme
 * [Adam4EVE](https://www.adam4eve.eu) - A collection of industry related tools including [Manufacturing profitability](https://www.adam4eve.eu/manu_rank.php?category=6&tech=2&maxSat=100), [Reprocessing profitability](https://www.adam4eve.eu/repro_ranking.php), [Material influence](https://www.adam4eve.eu/material_influence.php), [Cost index history](https://www.adam4eve.eu/graph_costIndex.php) and more
+* [EVE Cookbook](https://www.evecookbook.com) - Industry build calculator tool with reactions support and detailed build steps
 
 #### Maps
 
 * [Dotlan](http://evemaps.dotlan.net/) - The ONLY eve map site you will ever need peroid.  Jump planning, and route planning.  A lot of info too much to list.
 * [Eveeye Explorer](https://eveeye.com/) - Interactive k-space maps + chain mapping.
 * [Slazangers Map Tool (SMT)](https://github.com/Slazanger/SMT) - Character/intel tracking, waypoint manipulation, live data for all your hunting/travelling needs(ratting, deaths, jumps etc) and some helpers for relic/data exploration
+* [EVE Route](https://github.com/tkhamez/eve-route) - A route planner that supports Ansiblex jump gates and wormhole connections.
 
 #### Misc
 * [EVE SRP mail](https://github.com/jbs1/eve-srpmail) - A simple mailing tool for use in Corporations with Ship Replacement Programs. Mails from contracts.
@@ -206,7 +204,7 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 * [EveChatNotifier](https://github.com/MyUncleSam/EveChatNotifier) - Outlook-Like Notifications for EVE Online chat
 * [Eve Deposit](http://evedeposit.dropsnorz.com) - A Rookie-friendly ore comparator based on market prices.
 * [skŸlizer](https://github.com/chrRtg/eve-skylizer) - Moon, Goo and SCAN analyzer - keep track and share moon-ore and scans
-  
+
 #### Recruitment
 
 * [ESIKnife](https://beta.esiknife.space) - View/share all of your ESI data
@@ -260,11 +258,12 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 * [Fuzzwork SDE Converter](https://github.com/fuzzysteve/yamlloader) - The conversion tool for going from the official yaml SDE to one in a DB.
 * [Mock ESI](https://github.com/antihax/mock-esi) - A mock ESI server for consistently testing ESI Consumers, wrapped in a Docker image.
 * [JSON version of SDE](http://sde.zzeve.com) - Download SDE tables in JSON format.
+* [ESI Data](https://github.com/tkhamez/esi-data) - Provides JSON files for some static data from ESI.
 
 #### Microservices
 * [EVE MarketWatch](https://github.com/antihax/eve-marketwatch) - Self contained market microservices that pumps market changes over a websocket.
 * [EVE Axiom](https://github.com/antihax/eve-axiom) - Self contained killmail to dogma attribute processor. Feed it ESI Killmail data and it spits out the ship, module, and drone attributes.
-* [eve-shields](https://github.com/ErikKalkoken/eve-shields) - Web service for creating Eve Online related badges for web sites and github readme's with shields.io 
+* [eve-shields](https://github.com/ErikKalkoken/eve-shields) - Web service for creating Eve Online related badges for web sites and github readme's with shields.io
 
 ---------
 
@@ -325,10 +324,13 @@ Outdated fitting tools used to be listed, but they are so far out of date they r
 
 ## Abandoned and Outdated
 
-#### Market
+* [Eve Traders Handbook](http://matthewpennell.github.io/eve-traders-handbook/) - a multi-purpose web application for traders, importers, and manufacturers. (outdated)
+* [EveStructures](https://github.com/skiedude/evestructures) - Monitor all your stations spread across New Eden across multiple Corporations. See Fuel, Services, etc and be notified via discord/slack push notifications. (oudated)
+* [EveVision](https://eve.vision/) - Tool for overlaying various external sites/tools on the EVE client. (site offline)
+* [Capri's Tools](https://skyride.org/) - A suite of fleet scan tools including live fleet scans via ESI (invalid cert)
+* [Eve Development Network Killboard](https://github.com/evekb/evedev-kb) - A selfhostable killboard for keeping track and making campaigns with goals. (no updates in over 2 years)
+* [IMP](https://github.com/3vi1/IMP) - Eve Online Intelligence Management Program (repository archived)
+* [Eve Droid](https://play.google.com/store/apps/details?id=dk.alxb.evedroid) - EVE Droid is a character monitoring and ship fitting tool for EVE Online. (app no longer listed in Play Store)
 
-* [Eve Traders Handbook](http://matthewpennell.github.io/eve-traders-handbook/) - a multi-purpose web application for traders, importers, and manufacturers.
 
-#### Management Tools
 
-* [EveStructures](https://structures.eveskillboard.com) - Monitor all your stations spread across New Eden across multiple Corporations. See Fuel, Services, etc and be notified via discord/slack push notifications.
